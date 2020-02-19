@@ -1,0 +1,62 @@
+/*GLOBAL*/
+html, body{
+    margin: 0px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*TITULOS*/
+header h1, main h2 {
+    margin-bottom: 70px;
+}
+
+/*ALINHAMENTOS, ESPAÇAMENTOS, LARGURAS E ALTURAS*/
+header, main, footer{
+    text-align: center;
+
+}
+
+header, .form, main{
+
+    /* espaçamentos com margem*/
+   margin: 0 auto 70px auto;
+
+    /* limites dos elementos na pagina*/
+    width: 90%;
+    max-width: 500px;
+}
+
+/*FORMULARIO*/
+section.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+form input, form button {
+    width: 100%;
+    margin-bottom: 4px;
+    
+    /*preenchimentos*/
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-right: 8px;
+}
+
+main .donors{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+
+}
+
+footer{
+    margin-top: auto;
+
+}
