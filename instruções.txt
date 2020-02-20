@@ -1,0 +1,5 @@
+comandos para inicialização do servidor com node.js
+
+1 -> npm init -y // inicia a aplicação (cria package.json)
+2 -> npm install express // Instala express "conjunto de estrategias para servidor" (cria pasta node_modules)
+
